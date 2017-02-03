@@ -5,9 +5,9 @@ This will update the package.json, bump bumping the version.
 
 ### Running
 docker run --rm \
-  -e "PATCH=true" \ 
+  -e "PATCH=true" \
   -v /path/to/package.json:/package.json \
-  ponelat/npm-version
+  ponelat/bump-version
 
 ### ENV
 - `-e "MAJOR=true"` bump the major version
