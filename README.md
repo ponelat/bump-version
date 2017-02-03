@@ -4,10 +4,12 @@ Wrapped in a docker image
 This will update the package.json, bump bumping the version.
 
 ### Running
+```sh
 docker run --rm \
   -e "PATCH=true" \
   -v /path/to/package.json:/package.json \
   ponelat/bump-version
+```
 
 ### ENV
 - `-e "MAJOR=true"` bump the major version
