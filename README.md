@@ -18,3 +18,5 @@ docker run --rm \
 
 > You can include whichever parts of the semver you'd like to bump and whether you want a prelrease attached.
 
+
+Copyright SmartBear 2017
